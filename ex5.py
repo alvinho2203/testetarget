@@ -1,7 +1,7 @@
 def inverter_string(string):
     invertida = ""
     for i in range(len(string) - 1, -1, -1):
-        invertida += string[i]  # Adiciona cada caractere na string invertida
+        invertida += string[i] 
     return invertida
 
 
